@@ -1,42 +1,37 @@
-Power BI Executive Sales Dashboard: VanArsdel, Ltd.
-An interactive Power BI dashboard analyzing global sales performance for VanArsdel, Ltd., featuring custom components and an animated interface to visualize data trends over time.
+PPower BI Executive Sales Dashboard: VanArsdel, Ltd.
+An interactive Power BI dashboard designed to analyze and visualize global sales performance for VanArsdel, Ltd. This project integrates custom visuals and a professional, branded layout to deliver key business insights.
 
 📊 Project Overview
 This project features a business intelligence dashboard that provides an executive-level overview of sales and revenue for VanArsdel, Ltd.. It is designed to identify key trends in performance across international markets, product segments, and competitor landscapes.
 
+The dashboard provides insights into:
 
-This dashboard provides insights into:
+🌎 Revenue performance by country
 
-🌎 Revenue performance by 
+📈 Year-over-year revenue growth and competitive trends
 
-country 
-
-
-📈 
-
-Year-over-year revenue growth and competitive trends 
-
-
-🎯 Sales distribution across customer 
-
-segments and product categories 
-
-
+🎯 Sales distribution across customer segments and product categories
 
 💡 Features
 
-Interactive Animation: Utilizes the "Play Axis" custom visual to animate report data over time, featuring play, pause, and stop controls.
+Geographic Performance: Analyzes revenue by country, identifying the USA as the top-performing market.
 
 
 
-Geographic Analysis: Revenue is broken down by country, with the USA identified as the top-performing market.
+Sales by Segment: Features a donut chart breaking down sales by customer segments, with "Convenience" as the largest at 25.2%.
 
 
 
-Market Segmentation: A donut chart visualizes sales by segments, with "Convenience" being the largest at 25.2%.
+Category Trends: A line chart tracks units sold over time by product category, with "Mix" being the highest-selling line.
 
 
-Branded Interface: Features the official VanArsdel, Ltd. logo and a professional layout, as seen in the provided assets.
+
+Interactive Animation: Integrates the "Play Axis" custom visual, which works as a dynamic slicer to animate report visuals over time. It includes controls for play, pause, and stop to allow for hands-free presentation.
+
+
+
+
+Branded Layout: Built using a custom layout template and features the official VanArsdel, Ltd. company logo.
 
 🛠️ Tools & Technologies
 Power BI Desktop
@@ -49,12 +44,7 @@ DAX (Data Analysis Expressions)
 Custom Visual: Play Axis 
 
 
-📁 Dataset
-Source: The report is built from a collection of country-specific sales data files.
-
-Files: Australia.csv, Canada.csv, Germany.csv, Japan.csv, Mexico.csv, Nigeria.csv.
-
-Fields: Country, Year, Revenue, Units Sold, Segments, Category.
+Fields: Country, Year, Revenue, Units Sold, Segments, Category
 
 🔗 Live Dashboard
 👉 A live version of the report can be published and embedded via Power BI Service.
