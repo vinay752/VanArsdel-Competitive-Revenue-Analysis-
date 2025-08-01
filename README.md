@@ -1,53 +1,60 @@
-PPower BI Executive Sales Dashboard: VanArsdel, Ltd.
-An interactive Power BI dashboard designed to analyze and visualize global sales performance for VanArsdel, Ltd. This project integrates custom visuals and a professional, branded layout to deliver key business insights.
+# Power BI Executive Sales Dashboard: VanArsdel, Ltd.
 
-📊 Project Overview
-This project features a business intelligence dashboard that provides an executive-level overview of sales and revenue for VanArsdel, Ltd.. It is designed to identify key trends in performance across international markets, product segments, and competitor landscapes.
+An interactive Power BI dashboard designed to analyze and visualize global sales performance for VanArsdel, Ltd. This project integrates custom visuals and a professional, branded layout to deliver key business insights for executive decision-making.
 
-The dashboard provides insights into:
+---
 
-🌎 Revenue performance by country
+## 📊 Project Overview
 
-📈 Year-over-year revenue growth and competitive trends
+This dashboard provides an executive-level overview of sales and revenue for VanArsdel, Ltd., highlighting key trends in performance across international markets, product segments, and competitive landscapes.
 
-🎯 Sales distribution across customer segments and product categories
+**Key insights include:**
 
-💡 Features
+- 🌎 **Revenue Performance by Country:** Identifies the USA as the top-performing market globally.  
+- 📈 **Year-over-Year Revenue Growth:** Tracks competitive trends and growth patterns over time.  
+- 🎯 **Sales Distribution:** Breaks down sales across customer segments and product categories to highlight opportunities and strengths.
 
-Geographic Performance: Analyzes revenue by country, identifying the USA as the top-performing market.
+---
 
+## 💡 Features
 
+- **Geographic Performance:** Interactive maps analyzing revenue by country.  
+- **Sales by Segment:** Donut chart illustrating sales by customer segments, with *Convenience* leading at 25.2%.  
+- **Category Trends:** Line chart showing units sold over time by product category, with *Mix* as the highest-selling category.  
+- **Interactive Animation:** Utilizes the *Play Axis* custom visual to animate report visuals over time, including play, pause, and stop controls for hands-free presentations.  
+- **Branded Layout:** Customized layout featuring VanArsdel, Ltd.’s official company logo for professional branding.
 
-Sales by Segment: Features a donut chart breaking down sales by customer segments, with "Convenience" as the largest at 25.2%.
+---
 
+## 🛠️ Tools & Technologies
 
+- Power BI Desktop  
+- Power Query Editor  
+- DAX (Data Analysis Expressions)  
+- Custom Visual: *Play Axis*
 
-Category Trends: A line chart tracks units sold over time by product category, with "Mix" being the highest-selling line.
+---
 
+## 📁 Dataset
 
+**Source:** Aggregated country-specific CSV data files.
 
-Interactive Animation: Integrates the "Play Axis" custom visual, which works as a dynamic slicer to animate report visuals over time. It includes controls for play, pause, and stop to allow for hands-free presentation.
+| File         | Fields                                      |
+|--------------|---------------------------------------------|
+| Australia.csv | Country, Year, Revenue, Units Sold, Segments, Category |
+| Canada.csv    | Country, Year, Revenue, Units Sold, Segments, Category |
+| Germany.csv   | Country, Year, Revenue, Units Sold, Segments, Category |
+| Japan.csv     | Country, Year, Revenue, Units Sold, Segments, Category |
+| Mexico.csv    | Country, Year, Revenue, Units Sold, Segments, Category |
+| Nigeria.csv   | Country, Year, Revenue, Units Sold, Segments, Category |
 
+---
 
+## 🔗 Live Dashboard
 
+A live version of this report can be published and embedded via Power BI Service.
 
-Branded Layout: Built using a custom layout template and features the official VanArsdel, Ltd. company logo.
+---
 
-🛠️ Tools & Technologies
-Power BI Desktop
-
-Power Query Editor
-
-DAX (Data Analysis Expressions)
-
-
-Custom Visual: Play Axis 
-
-
-Fields: Country, Year, Revenue, Units Sold, Segments, Category
-
-🔗 Live Dashboard
-👉 A live version of the report can be published and embedded via Power BI Service.
-
-Author: [Vinay Palakurthy]
-License: MIT
+**Author:** Vinay Palakurthy  
+**License:** MIT License
